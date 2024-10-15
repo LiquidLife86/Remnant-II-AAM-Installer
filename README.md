@@ -1,6 +1,7 @@
 AAM and Summonable Traits downloaded as of 10/15/2024
 
 Credit to AAM and Summonable Traits authors:
+
 AAM
 
 https://www.nexusmods.com/remnant2/mods/2?tab=description
