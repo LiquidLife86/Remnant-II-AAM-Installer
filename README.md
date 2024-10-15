@@ -15,12 +15,12 @@ https://www.nexusmods.com/remnant2/mods/122
 
 # Instructions:
 
-1. Unzip the the AMM and put all of the contents into the AMM folder.
+1. Unzip the the AMM and put all of the contents into the AMM folder. Will look like below.
 
 ![image](https://github.com/user-attachments/assets/f2a19a16-6ce8-4965-8eff-2511668966f0)
 
 
-2. Unzip the Summonable Traits and put the folder in the Mods folder.
+2. Unzip the Summonable Traits and put the folder in the Mods folder. Will look like below.
 
 ![image](https://github.com/user-attachments/assets/627c7389-92ea-45d7-a5ef-e3768f5a59bf)
 
