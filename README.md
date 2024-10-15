@@ -12,7 +12,8 @@ This will paste the files in the appropriate place to run AAM.
 
 ![image](https://github.com/user-attachments/assets/35829143-4af6-4cb7-be56-5b777098bf1d)
 
-4. Done
+4. Click Install Mods
 
+![image](https://github.com/user-attachments/assets/65cd817e-6c3b-4d3c-9e08-9a8262c09444)
 
-
+5. Done
