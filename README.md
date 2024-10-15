@@ -1,4 +1,4 @@
-AAM downloaded as of 10/15/2024
+AAM and Summonable Traits downloaded as of 10/15/2024
 
 This will paste the files in the appropriate place to run AAM.
 
