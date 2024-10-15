@@ -1,4 +1,4 @@
-#This will paste the files in the appropriate place to run AAM.
+**This will paste the files in the appropriate place to run AAM.**
 
 Download AAM and Summonable Traits first and extract them into the AAM foler
 
