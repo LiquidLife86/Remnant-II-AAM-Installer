@@ -49,44 +49,51 @@
         }
 
 		function movemodstogamefolder() {
-			var fso = new ActiveXObject("Scripting.FileSystemObject");
-			var sourceFolderPath = fso.GetAbsolutePathName(".\\AAM");
-			var targetFolderPath = fso.BuildPath(gameFolderPath, "Remnant2\\Binaries\\Win64");
+            var fso = new ActiveXObject("Scripting.FileSystemObject");
+            var sourceFolderPath = fso.GetAbsolutePathName(".\\AAM");
+            var targetFolderPath = fso.BuildPath(gameFolderPath, "Remnant2\\Binaries\\Win64");
+            var deleteMeFilePath = fso.BuildPath(sourceFolderPath, "DELETE_ME.txt");
 
-			try {
-				document.getElementById("status").innerText = ""; // Clear previous status messages
+            try {
+                document.getElementById("status").innerText = ""; // Clear previous status messages
 
-				if (fso.FolderExists(sourceFolderPath)) {
-					// Copy all files from the AAM source folder to the target
-					var sourceFolder = fso.GetFolder(sourceFolderPath);
-					var files = new Enumerator(sourceFolder.Files);
+                // Delete the DELETE_ME.txt file if it exists
+                if (fso.FileExists(deleteMeFilePath)) {
+                    fso.DeleteFile(deleteMeFilePath, true);
+                    document.getElementById("status").innerText += "DELETE_ME.txt file deleted successfully.\n";
+                }
+
+                if (fso.FolderExists(sourceFolderPath)) {
+                    // Copy all files from the AAM source folder to the target
+                    var sourceFolder = fso.GetFolder(sourceFolderPath);
+                    var files = new Enumerator(sourceFolder.Files);
             
-					for (; !files.atEnd(); files.moveNext()) {
-						var file = files.item();
-						var targetFilePath = fso.BuildPath(targetFolderPath, file.Name);
+                    for (; !files.atEnd(); files.moveNext()) {
+                        var file = files.item();
+                        var targetFilePath = fso.BuildPath(targetFolderPath, file.Name);
                 
-						// Copy file and overwrite if it exists
-						fso.CopyFile(file.Path, targetFilePath, true);
-					}
-					document.getElementById("status").innerText += "Files copied successfully.";
+                        // Copy file and overwrite if it exists
+                        fso.CopyFile(file.Path, targetFilePath, true);
+                    }
+                    document.getElementById("status").innerText += "Files copied successfully.";
 
-					// Check and copy the "Mods" folder
-					var modsSourcePath = fso.BuildPath(sourceFolderPath, "Mods");
-					var modsTargetPath = fso.BuildPath(targetFolderPath, "Mods");
+                    // Check and copy the "Mods" folder
+                    var modsSourcePath = fso.BuildPath(sourceFolderPath, "Mods");
+                    var modsTargetPath = fso.BuildPath(targetFolderPath, "Mods");
 
-					if (fso.FolderExists(modsSourcePath)) {
-						fso.CopyFolder(modsSourcePath, modsTargetPath, true); // Overwrite if the folder exists
-						document.getElementById("status").innerText += "\nMods folder copied successfully.";
-					} else {
-						document.getElementById("status").innerText += "\nMods folder does not exist in the AAM source.";
-					}
-				} else {
-					document.getElementById("status").innerText = "AAM folder does not exist.";
-				}
-			} catch (e) {
-				document.getElementById("status").innerText = "Error: " + e.message;
-			}
-		}
+                    if (fso.FolderExists(modsSourcePath)) {
+                        fso.CopyFolder(modsSourcePath, modsTargetPath, true); // Overwrite if the folder exists
+                        document.getElementById("status").innerText += "\nMods folder copied successfully.";
+                    } else {
+                        document.getElementById("status").innerText += "\nMods folder does not exist in the AAM source.";
+                    }
+                } else {
+                    document.getElementById("status").innerText = "AAM folder does not exist.";
+                }
+            } catch (e) {
+                document.getElementById("status").innerText = "Error: " + e.message;
+            }
+        }
 
 
 
