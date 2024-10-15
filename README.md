@@ -13,6 +13,8 @@ Summonable Traits
 https://www.nexusmods.com/remnant2/mods/122
 
 
+# Instructions:
+
 1. Unzip the the AMM and put all of the contents into the AMM folder.
 
 ![image](https://github.com/user-attachments/assets/f2a19a16-6ce8-4965-8eff-2511668966f0)
@@ -23,21 +25,16 @@ https://www.nexusmods.com/remnant2/mods/122
 ![image](https://github.com/user-attachments/assets/627c7389-92ea-45d7-a5ef-e3768f5a59bf)
 
 
-
-# Instructions:
-
-1. Download and unzip this
-   
-2. Run the Remnant 2 AAM Installer.hta
+3. Run the Remnant 2 AAM Installer.hta
 
 ![image](https://github.com/user-attachments/assets/1c37b6d8-cf76-4399-97f3-56076eec53cd)
 
-3. Click Select Game Folder button and pick the folder that has RemnantII.exe in it and click OK
+4. Click Select Game Folder button and pick the folder that has RemnantII.exe in it and click OK
 
 ![image](https://github.com/user-attachments/assets/35829143-4af6-4cb7-be56-5b777098bf1d)
 
-4. Click Install Mods
+5. Click Install Mods
 
 ![image](https://github.com/user-attachments/assets/65cd817e-6c3b-4d3c-9e08-9a8262c09444)
 
-5. Done
+6. Done
