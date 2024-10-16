@@ -1,4 +1,4 @@
-**This will paste the files in the appropriate place to run AAM.**
+**This will paste the files in the appropriate place to run AAM on STEAM game.**
 
 # Prerequisits:
 
