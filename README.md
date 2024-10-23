@@ -26,11 +26,9 @@
 
 ![image](https://github.com/user-attachments/assets/008a4caf-4609-44fa-843b-42be74f0d638)
 
-
 3. Unzip the Summonable Traits and put the folder in the Mods folder. Will look like below and be a folder called "SummonableTraits".
 
-![image](https://github.com/user-attachments/assets/627c7389-92ea-45d7-a5ef-e3768f5a59bf)
-
+![image](https://github.com/user-attachments/assets/267a130c-092f-47ac-b5e1-0801aa5cad11)
 
 4. Run the Remnant 2 AAM Installer.hta
 
