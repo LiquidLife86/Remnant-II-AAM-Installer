@@ -23,6 +23,7 @@
 
 
 2. **IF DOWNLOADED**
+   
    Unzip the the AMM mod and put all of the contents into the AMM folder of this installer. Will look like below and be a folder called "AllowModsMod".
 
 ![image](https://github.com/user-attachments/assets/008a4caf-4609-44fa-843b-42be74f0d638)
