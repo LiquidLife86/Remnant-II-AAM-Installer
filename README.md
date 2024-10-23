@@ -22,13 +22,13 @@
 ![image](https://github.com/user-attachments/assets/5efa956e-4334-45e3-97c0-5ebd3fb661ff)
 
 
-2. **IF DOWNLOADED**
-   
-   Unzip the the AMM mod and put all of the contents into the AMM folder of this installer. Will look like below and be a folder called "AllowModsMod".
+2.Unzip the the AMM mod and put all of the contents into the AMM folder of this installer. Will look like below and be a folder called "AllowModsMod".
 
 ![image](https://github.com/user-attachments/assets/008a4caf-4609-44fa-843b-42be74f0d638)
 
-3. Unzip the Summonable Traits and put the folder in the Mods folder. Will look like below and be a folder called "SummonableTraits".
+3.  **IF SUMMONABLE TRAITS DOWNLOADED**
+   
+   Unzip the Summonable Traits and put the folder in the Mods folder. Will look like below and be a folder called "SummonableTraits".
 
 ![image](https://github.com/user-attachments/assets/267a130c-092f-47ac-b5e1-0801aa5cad11)
 
