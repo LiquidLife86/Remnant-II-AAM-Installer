@@ -17,6 +17,11 @@
 
 # Instructions:
 
+1. Unzip this installer to your desktop and it will look like this:
+
+2. ![image](https://github.com/user-attachments/assets/5efa956e-4334-45e3-97c0-5ebd3fb661ff)
+
+
 1. Unzip the the AMM and put all of the contents into the AMM folder. Will look like below and be a folder called "AllowModsMod".
 
 ![image](https://github.com/user-attachments/assets/f2a19a16-6ce8-4965-8eff-2511668966f0)
