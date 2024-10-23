@@ -2,15 +2,17 @@
 
 # Prerequisits:
 
-Download AAM and Summonable Traits first and extract them into the AAM foler
+-This installer
 
-AAM
+-Download AAM and Summonable Traits first and extract them into the AAM foler
 
-https://www.nexusmods.com/remnant2/mods/2?tab=description
+  AAM
 
-Summonable Traits
+    https://www.nexusmods.com/remnant2/mods/2?tab=description
 
-https://www.nexusmods.com/remnant2/mods/122
+  Summonable Traits
+
+    https://www.nexusmods.com/remnant2/mods/122
 
 
 # Instructions:
